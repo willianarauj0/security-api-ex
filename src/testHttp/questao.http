@@ -1,0 +1,33 @@
+@url = https://shiny-capybara-4j695pxpr95g3jwx7-8080.app.github.dev
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJGQVRFQyBBUEkiLCJzdWIiOiJhZG1pbiIsImV4cCI6MTc0NTk3Mjk1OX0.PFHbNQxeAVWdYSN4o9-0VT15y778oi9MOXLgN1FENLk
+
+GET {{url}}/questoes
+Authorization:  Bearer {{token}}
+
+###
+POST {{url}}/questoes
+Authorization:  Bearer {{token}}
+Content-Type: application/json
+
+{
+  "enunciado": "Qual é o resultado de 5 × 5?",
+  "categoriaId": 1,
+  "opcoes": [
+    {
+      "descricao": "15",
+      "isCorreta": false
+    },
+    {
+      "descricao": "20",
+      "isCorreta": false
+    },
+    {
+      "descricao": "25",
+      "isCorreta": true
+    },
+    {
+      "descricao": "30",
+      "isCorreta": false
+    }
+  ]
+}

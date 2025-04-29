@@ -1,0 +1,3 @@
+@url = https://shiny-capybara-4j695pxpr95g3jwx7-8080.app.github.dev
+
+GET {{url}}/public

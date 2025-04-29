@@ -1,0 +1,5 @@
+@url = https://shiny-capybara-4j695pxpr95g3jwx7-8080.app.github.dev
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJGQVRFQyBBUEkiLCJzdWIiOiJhZG1pbiIsImV4cCI6MTc0NTk2NDM4NH0.bzpeU7Eab3lEykS2U2Hq3ROicWW1bfMRv2_yJAX0z4w
+
+GET {{url}}/protected
+Authorization:  Bearer {{token}}
